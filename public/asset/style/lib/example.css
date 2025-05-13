@@ -1,0 +1,40 @@
+#description{
+    background-color: #434a64;
+    padding: 1rem;
+    border-radius: 1rem;
+    p{
+        margin: 0.5rem 0;
+        color: #fff;
+    }
+}
+#commands{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    button{
+        padding: 0.5rem;
+        font-size: 1rem;
+        background-color: rgb(71, 107, 107);
+        border: none;
+        border-radius: 0.25rem;
+        color: #fff;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: rgb(46, 72, 72);
+    }
+}
+#demodisp{
+    display: flex;
+    justify-content: space-around;
+    pre{
+        background-color: #DDD;
+        padding: 0.5rem;
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+    }
+    table{
+        padding: 0.5rem;
+    }
+}

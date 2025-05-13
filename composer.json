@@ -1,0 +1,24 @@
+{
+    "name": "raymondoor/webaapp2",
+    "description": "A modular php-httpd application with conventional httpd style routing",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymondoor",
+            "email": "torhc17311@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raymondoor\\Config\\": "app/config/",
+            "Raymondoor\\Model\\": "app/model/",
+            "Raymondoor\\Function\\": "app/function/"
+        },
+        "files": [
+            "app/config/env.php",
+            "app/function/init.php"
+        ]
+    },
+    "require": {}
+}

@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# First, always rewrite everything to public/
+# (even if file/dir exists in the root)
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L]
