@@ -1,5 +1,6 @@
 ## Initial Setup
-Enable Override in httpd.conf
+Enable Override in httpd.conf.
+
 set app/config/env.php files
 ## Quick Start
 After your initial setup is complete, all you need to do is copy the whole project to where your html is served, usually in "/usr/local/apache2/htdocs" or "/var/www/html".
