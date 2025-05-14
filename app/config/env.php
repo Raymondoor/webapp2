@@ -21,3 +21,6 @@ define('SCRIPT_URL',ASSET_URL.'/script');
 //example
 define('POST_URL',HOME_URL.'/post.php?p=');
 define('ADMIN_URL', HOME_URL.'/admin');
+
+//view
+define('TITLE', 'New App');

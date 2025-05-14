@@ -6,7 +6,7 @@ use function Raymondoor\function\loadAsset;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=isset($TITLE)?$TITLE:'Raymondoor App'?></title>
+    <title><?=isset($TITLE)?$TITLE:TITLE?></title>
     <link rel="icon" href="<?=IMAGE_URL?>/brand/tram.jpg" type="image/jpg" />
     <link rel="stylesheet" href="<?=STYLE_URL?>/pure-min.css" />
     <?=loadAsset('style', false)?>
